@@ -29,3 +29,7 @@ git checkout -- <br>
 到服务器上获取最新的版本并将你本地主分支指向到它 <br> 
 git fetch origin <br> 
 git reset --hard origin/master <br>
+ <br>
+git add 文件夹/            添加整个文件夹及内容 <br>
+git add *.文件类型       添加目录中所有此文件类型的文件 <br>
+ <br>
