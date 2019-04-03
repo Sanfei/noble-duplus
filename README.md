@@ -7,7 +7,7 @@ duplus high-performance RPC framework -version 2.5.3 <br>
 $ git clone /path/to/repository <br> 
  <br>
 第二步 添加与提交 <br> 
-$ git add <br> 
+$ git add 或 git add -f <br> 
 $ git commit -m "代码提交信息" <br> 
  <br>
 第三步 推送改动 <br> 
@@ -30,6 +30,5 @@ git checkout -- <br>
 git fetch origin <br> 
 git reset --hard origin/master <br>
  <br>
-git add 文件夹/            添加整个文件夹及内容 <br>
-git add *.文件类型       添加目录中所有此文件类型的文件 <br>
+
  <br>
