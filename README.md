@@ -8,7 +8,7 @@ $ git clone /path/to/repository <br>
  <br>
 第二步 添加与提交 <br> 
 $ git add 或 git add -f <br> 
-$ git commit -m "代码提交信息" <br> 
+$ git commit -m "代码提交信息" 或 git commit -m 'msg' -a <br> 
  <br>
 第三步 推送改动 <br> 
 $ git push origin master <br> 
