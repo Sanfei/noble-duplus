@@ -6,3 +6,8 @@
 </dependency>
 
 = =
+
+yum groupinstall "Development Tools"
+apt-get install build-essential
+
+apt-get build-dep xyz
