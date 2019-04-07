@@ -1,5 +1,6 @@
 # noble-duplus
-duplus high-performance RPC framework -version 2.5.3 <br>
+duplus high-performance RPC framework <br>
+-version 2.5.3/2.6.2 <br>
  <br>
 
 Admin: <br>
