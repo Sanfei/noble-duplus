@@ -9,6 +9,7 @@
 
 yum groupinstall "Development Tools"
 apt-get install build-essential
+https://packages.ubuntu.com/trusty/devel/build-essential
 
 apt-get build-dep xyz
 
