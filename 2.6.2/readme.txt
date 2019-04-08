@@ -11,7 +11,7 @@ yum groupinstall "Development Tools"
 apt-get install build-essential
 https://packages.ubuntu.com/trusty/devel/build-essential
 
-apt-get build-dep xyz
+apt-get build-dep packagename
 
 https://help.ubuntu.com/community/InstallingCompilers
 Installing the X11 development compilers
