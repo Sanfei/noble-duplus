@@ -11,3 +11,7 @@ yum groupinstall "Development Tools"
 apt-get install build-essential
 
 apt-get build-dep xyz
+
+https://help.ubuntu.com/community/InstallingCompilers
+Installing the X11 development compilers
+$ sudo apt-get -y install libx11-dev
