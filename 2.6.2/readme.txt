@@ -30,3 +30,6 @@ OR set a password for root user in a single go:
 sudo passwd root
 Test it your root password by typing the following command:
 su -
+
+Ubuntu 14.04.5 LTS (Trusty Tahr)
+http://cloud-images.ubuntu.com/releases/14.04.4/release-20180722/
