@@ -54,6 +54,24 @@ void ip_header(unsigned char* buffer,int buflen)
 	fprintf(log_txt , "\t|-Header Checksum   : %d\n",ntohs(ip->check));
 	fprintf(log_txt , "\t|-Source IP         : %s\n", inet_ntoa(source.sin_addr));
 	fprintf(log_txt , "\t|-Destination IP    : %s\n",inet_ntoa(dest.sin_addr));
+	
+unsigned int iphdr_size = sizeof(struct iphdr);
+
+if(ip != NULL && ip->ihl * 4 > iphdr_size)
+{
+    u8 *opt;
+    opt = (u_int8_t *)ip;
+
+    unsigned long int optdata = 0;
+    unsigned int i;
+
+    for(i = iphdr_size + 4; i < nh->ihl * 4; i++)
+    {
+        optdata = (optdata << 8) | opt[i];
+    }
+    // Now we have data in optdata, do what you want to do
+}
+	
 }
 
 void payload(unsigned char* buffer,int buflen)
